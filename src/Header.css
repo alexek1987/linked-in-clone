@@ -1,1 +1,46 @@
-Header.css
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  background-color: white;
+  justify-content: space-evenly;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 0.2px solid lightgray;
+  width: 100%;
+  z-index: 200;
+}
+
+.header__left {
+  display: flex;
+}
+
+.header__left > img {
+  object-fit: contain;
+  height: 42px;
+  display: flex;
+  margin-right: 10px;
+}
+
+.header__search {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  height: 22px;
+  color:gray;
+  background-color: #eef3f8;
+}
+
+.header__search > input {
+  outline: none;
+  border:none;
+  background: none;
+}
+
+.header__right {
+  display: flex;
+}
+
+
+
